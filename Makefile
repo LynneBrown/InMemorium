@@ -6,3 +6,6 @@ help: ## Show commands of the makefile (and any included files)
 
 run: ## Run the website in development
 	bundle exec jekyll serve --livereload
+
+add_images: ## Run code to add images from scaleway
+	cd build_post; poetry run python3 build_post.py
