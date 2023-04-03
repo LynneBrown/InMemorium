@@ -35,3 +35,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.back {
+    width: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    a {
+        width: 80%;
+    }
+
+    .back {
+        width: 5rem;
+    }
+
+    body {
+        height: 100vh;
+    }
+}
