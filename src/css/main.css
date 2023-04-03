@@ -1,0 +1,37 @@
+.imageLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: start;
+    gap: 2rem;
+    width: 98vw;
+    margin: 1vw;
+    flex-wrap: wrap;
+}
+
+.imageHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    /* border: 1px #000000 solid; */
+    width: 100%;
+}
+
+img {
+    width: 80%;
+}
+
+a {
+    width: 25%;
+}
+
+body {
+    background-image: url(/src/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
