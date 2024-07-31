@@ -11,3 +11,8 @@ add_images: ## Run code to add images from scaleway
 	rm -rf _posts/
 	mkdir _posts
 	cd build_post; poetry run python3 build_post.py
+
+get_images: ## Run code to download all images from scaleway
+	rm -rf _imgs/
+	mkdir _imgs
+	cd build_post; poetry run python3 save_images.py
